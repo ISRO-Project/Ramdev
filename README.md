@@ -129,8 +129,12 @@ VLIW, DAE, Systolic Arrays ](https://course.ece.cmu.edu/~ece740/f13/lib/exe/fetc
 
 <br>
 
+# February
+
+<br>
+
 <details>
-  <summary>Day 4, 5 - 1/02, 2/02</summary>
+  <summary>Day 4, 5 - 1 & 2/02</summary>
 
 ### Tasks Assigned - Connect PS & PL with GPIO, Use LEDS and DIP Switches to show PS & PL are connected, Create a waveform(counter) and probe it on an oscilloscope
 
