@@ -24,4 +24,20 @@
   - Fixed architecture
   - Limited flexibility
 
-#FPGA (Field Programmable Gate Array):
+# FPGA (Field Programmable Gate Array):
+
+##### Zynq UltraScale+ MPSoC ZCU104 Evaluation Kit
+![1682465137359](https://github.com/ISRO-Project/Ramdev/assets/43489027/a23a5428-9fd0-4f91-b4a3-9264f2094e40)
+
+-> Field Programmable Gate Arrays (FPGAs) are integrated circuits often sold off-the-shelf. They’re referred to as ‘field programmable’ because they provide customers the ability to reconfigure the hardware to meet specific use case requirements after the manufacturing process. This allows for feature upgrades and bug fixes to be performed in situ, which is especially useful for remote deployments.
+
+-> FPGAs contain configurable logic blocks (CLBs) and a set of programmable interconnects that allow the designer to connect blocks and configure them to perform everything from simple logic gates to complex functions. Full SoC designs containing multiple processes can be put onto a single FPGA device
+
+##### A Simplified CLB
+![2210](https://github.com/ISRO-Project/Ramdev/assets/43489027/76948c8b-aebc-4b71-8761-c27149b1ab6c)
+
+-> Characteristics:
+  - Reconfigurability
+  - Well suited for Parallel Processing
+  - Custom Hardware Acceleration
+  - High power consumption
