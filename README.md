@@ -1,14 +1,13 @@
 # URSC Project Notes
 
-<details>
-  <summary>January</summary>
+# January
 
 <br>
 
 <details>
   <summary>Day 1 - 23/01</summary>
   
-### Task Assigned -> SOC vs FPGA
+### Task Assigned - SOC vs FPGA
 
 # SoC (System on Chip):
 
@@ -50,7 +49,7 @@ ref: [ARM - What Is an FPGA?, Why Do Developers Select FPGA?](https://www.arm.co
   - Flexibility: FPGAs provide more flexibility as they can be reprogrammed to desired application or functionality requirements after manufacturing. SoCs, on the other hand, are less flexible once designed.
   - Cost: FPGAs are generally more costly.
   - Power Consumption: FPGAs tend to consume more power.
-  - Ideal use cases:
+  - Use cases:
     - FPGA - Flexibility and Customization, Complex designs, Prototyping
     - SoC - Integration and ease of use, Mobile Devices
 </details>
@@ -89,3 +88,43 @@ ref: [ARM - What Is an FPGA?, Why Do Developers Select FPGA?](https://www.arm.co
 
 ref: [Zynq UltraScale+ MPSoC ZCU102 Evaluation Kit](https://www.xilinx.com/products/boards-and-kits/ek-u1-zcu102-g.html), [AMD Kintex UltraScale FPGA KCU105 Evaluation Kit
 ](https://www.xilinx.com/products/boards-and-kits/kcu105.html)
+</details>
+
+<br>
+
+<details>
+  <summary>Day 3 - 25/01</summary>
+
+### Task assigned - Systolic Array Architecture, 3x3 Dot Product implementation, Analyse working of 100x100
+
+# Systolic Array Architecture
+
+##### Systolic Array Architecture for CNN
+![Systolic-Array-Architecture-for-CNN](https://github.com/ISRO-Project/Ramdev/assets/43489027/425a98a6-ecd4-40fd-9838-8dbcdc8cd42b)
+
+-> A systolic array architecture is a type of parallel computing that uses a network of simple processing units called cells or nodes. Each node computes a partial result based on the data received from its neighbours and passes it along to the next node. The data flows through the network in a rhythmic way, like the pulse of the heart
+
+-> A systolic array is composed of a grid of cells, each of which performs a simple operation on the data it receives from its neighbours. The data flows through the array in a regular pattern, like a wave or a pulse. The output of each cell is passed to the next cell in the direction of the data flow. The final result is obtained at the edge of the array after a certain number of cycles.
+
+-> Systolic arrays are often used for applications that require high performance and efficiency, such as matrix multiplication, image processing, neural networks, and cryptography.
+
+-> Characteristics:
+  - Makes multiple uses of each data item, reduced need for
+fetching/refetching
+  - High concurrency
+  - Scalability
+  - Energy Efficiency
+
+ref: [Parallel processing – systolic arrays](https://www.geeksforgeeks.org/parallel-processing-systolic-arrays/), [Systolic Arrays](https://www.sciencedirect.com/topics/computer-science/systolic-arrays), [Computer Architecture:
+VLIW, DAE, Systolic Arrays ](https://course.ece.cmu.edu/~ece740/f13/lib/exe/fetch.php?media=onur-740-fall13-module5.3-vliw-dae-systolic.pdf)
+
+### 3x3 Dot Product Implementation using Systolic Arrays and analysis of 100x100
+-> Understood the concept using [A Beginner's Guide to Systolic Arrays: 3x3 multiplication using systolic arrays](https://www.youtube.com/watch?app=desktop&v=vADVh1ogNo0).
+
+![maxresdefault](https://github.com/ISRO-Project/Ramdev/assets/43489027/18922b4d-f554-4d25-b8a8-66c54784b421)
+
+
+
+
+
+
