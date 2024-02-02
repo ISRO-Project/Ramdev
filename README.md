@@ -24,6 +24,8 @@
   - Fixed architecture
   - Limited flexibility
 
+references: [System on a chip](https://en.wikipedia.org/wiki/System_on_a_chip), [Architecture of SoC](https://www.geeksforgeeks.org/architecture-of-soc/), [System on a Chip: How Smaller, Faster Devices are Made](https://www.ansys.com/en-in/blog/what-is-system-on-a-chip)
+
 # FPGA (Field Programmable Gate Array):
 
 ##### Zynq UltraScale+ MPSoC ZCU104 Evaluation Kit
@@ -41,3 +43,5 @@
   - Well suited for Parallel Processing
   - Custom Hardware Acceleration
   - High power consumption
+
+references: [ARM - What Is an FPGA?, Why Do Developers Select FPGA?](https://www.arm.com/glossary/fpga#:~:text=Field%20Programmable%20Gate%20Arrays%20(FPGAs,requirements%20after%20the%20manufacturing%20process.)), [AMD - Field Programmable Gate Array (FPGA)](https://www.xilinx.com/products/silicon-devices/fpga/what-is-an-fpga.html), [What's an FPGA?](https://www.youtube.com/watch?v=iHg0mmIg0UU&pp=ygUEZnBnYQ%3D%3D)
