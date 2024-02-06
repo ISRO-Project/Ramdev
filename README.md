@@ -152,4 +152,15 @@ System(PS).
 resources, ref: [ZCU102 Evaluation
 Board - User Guide](https://www.xilinx.com/support/documents/boards_and_kits/zcu102/ug1182-zcu102-eval-bd.pdf), [PetaLinux offline build without internet access](https://support.xilinx.com/s/article/Petalinux-offline-build-flow?language=en_US), [ZYNQ for beginners: programming and connecting the PS and PL](https://www.youtube.com/watch?v=_odNhKOZjEo&list=PLtC_AnOn1Cx9LUfca0HdIBXK9lNFQfEte), [xdc file for ZCU 102](https://account.amd.com/en/forms/downloads/design-license.html?cid=473474&filename=zcu102-xdc-rdf0405.zip)
 
-### Pending - keyboard input using UART, waveform generation
+</details>
+
+<br>
+
+<details>
+  <summary>Day 6 to 8 - 5 to 7/02</summary>
+-> Completed the implementation of getting a keyboard input throught UART.
+
+### Pending - counter (waveform) 
+
+
+
