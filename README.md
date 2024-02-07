@@ -162,15 +162,20 @@ Board - User Guide](https://www.xilinx.com/support/documents/boards_and_kits/zcu
 # Keyboard input throught UART
 
 ##### Block Diagram
-![302697547-3995e500-8fab-430d-9a3b-720e2bd8f48b](https://github.com/ISRO-Project/Ramdev/assets/43489027/23330bb1-cec9-4d43-a9f4-19a78a536aa4)
+![302697579-5602405d-e566-434e-95bb-04feea77fc23](https://github.com/ISRO-Project/Ramdev/assets/43489027/7324e49e-7438-4fae-8944-409e8ec62557)
+
 
 ##### GPIO Block Configuration
 ![302697547-3995e500-8fab-430d-9a3b-720e2bd8f48b](https://github.com/ISRO-Project/Ramdev/assets/43489027/2ba0aa2f-d41c-48ff-858f-5c6d6e58fd3b)
 
 -> Create HDL Wrapper, Generate Bitstream and Export.
+
 -> Lauch Vitis and create a new platform project with the newly made XSA file.
+
 -> Create a new application project.
+
 -> Edit the helloworld.c file to include the below code:
+
 
 ```bash
 #include <stdio.h>
@@ -211,6 +216,7 @@ int main() {
 
 ```  
 -> Build Project and run on Hardware.
+
 -> Input given through CuteCom lights up the corresponding LED.
 
 
