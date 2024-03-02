@@ -5,7 +5,7 @@
 <br>
 
 <details>
-  <summary>Day 1 - 23/01</summary>
+  <summary>Week 1 - 23/01</summary>
   
 ### Task Assigned - SOC vs FPGA
 
@@ -57,7 +57,7 @@ ref: [ARM - What Is an FPGA?, Why Do Developers Select FPGA?](https://www.arm.co
 <br>
 
 <details>
-  <summary>Day 2 - 24/01</summary>
+  <summary> 24/01 </summary>
 
 ### Task Assigned - ZCU 102, KCU 105
 
@@ -93,7 +93,7 @@ ref: [Zynq UltraScale+ MPSoC ZCU102 Evaluation Kit](https://www.xilinx.com/produ
 <br>
 
 <details>
-  <summary>Day 3 - 25/01</summary>
+  <summary> 25/01 </summary>
 
 ### Task assigned - Systolic Array Architecture, 3x3 Dot Product implementation, Analyse working of 100x100
 
@@ -134,7 +134,9 @@ VLIW, DAE, Systolic Arrays ](https://course.ece.cmu.edu/~ece740/f13/lib/exe/fetc
 <br>
 
 <details>
-  <summary>Day 4, 5 - 1 & 2/02</summary>
+  <summary>Week 2</summary>
+
+#### 1 & 2/02
 
 ### Tasks Assigned - Connect PS & PL with GPIO, Use LEDS and DIP Switches to show PS & PL are connected, Create a waveform(counter) and probe it on an oscilloscope
 
@@ -157,7 +159,9 @@ Board - User Guide](https://www.xilinx.com/support/documents/boards_and_kits/zcu
 <br>
 
 <details>
-  <summary>Day 6 to 8 - 5 to 7/02</summary>
+  <summary> Week 3 </summary>
+
+#### 5 to 9/02
   
 # Keyboard input throught UART
 
@@ -219,9 +223,12 @@ int main() {
 
 -> Input given through CuteCom lights up the corresponding LED.
 
+</details>
 
 
-### Pending - counter (waveform) 
+
+
+ 
 
 
 
