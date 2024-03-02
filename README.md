@@ -225,7 +225,44 @@ int main() {
 
 </details>
 
+<br>
 
+<details>
+  <summary> Week 4 </summary>
+
+# Tuesday, 20/2 
+- Petalinux Image installation on the board.
+- Switched the board to SD card boot mode
+- Tried to get webcam input through the ZCU 102 board.
+
+# Wednesday, 21/2
+- Successfully got camera input
+- Started working on running the Cloud/No Cloud classifier using the board.
+
+# Thursday, 22/2
+- Completed the classifier implementation using the MX_Full model.
+- Started to work on running it using Resnet 50 and Resnet 101.
+
+# Friday, 23/2
+- Both Resnet implementations completed but on seeing results decided that they are not suitable for our classifier.
+- Yolo implementation for object detection started.
+
+</details>
+
+<br>
+
+<details>
+  <summary> Week 5 </summary>
+
+# Monday, 26/2
+- Yolov3 running on CPU for single frame captured through webcam.
+
+# Tuesday, 27/2
+- Tried to run using DPU but not successful. Several issues while using Darknet for DPU (Referred to https://pjreddie.com/darknet/yolo/).
+
+# Wednesday, 28/2
+- Successfully ran multiple frame capture and Yolov3 detection on CPU.
+- 2 min per frame to detect and display output.
 
 
  
